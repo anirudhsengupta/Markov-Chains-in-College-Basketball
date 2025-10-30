@@ -14,17 +14,18 @@ Using **play-by-play data** from the 2024–25 season, the model simulates game 
 ## 🧠 Methodology
 1. **State Definition:**  
    Each state in the Markov chain represents a specific event in a basketball possession:  (2-PT Shot Attempt, 2-PT Shot Make, Offensive Rebound, etc.)
+   ![Example Markov Chain for 2024-25 Florida Gators](images/Markov_Chain_Florida.png)
 
-2. **Data Collection:**  
+3. **Data Collection:**  
    Play-by-play data was gathered using the `cbbpy` library and scraped to identify possessions and accumulate statistics.
 
-3. **Transition Probabilities:**  
+4. **Transition Probabilities:**  
    Probabilities of moving between states were estimated using historical outcomes — accounting for free throw accuracy, turnover rates, scoring probabilities, and more.
 
-4. **Expected Points:**  
+5. **Expected Points:**  
    The chains run multiple simulations to calculate the expected points in each situation (No Foul, Foul in the Bonus, Foul in the Double Bonus) for all D1 Teams.
 
-5. **Time Frames:**  
+6. **Time Frames:**  
    Play-by-play data was scraped from different time intervals (Full Game, Last Hald, Last 5 Min, etc.) to show how the expected points changed over time.
 ---
 
