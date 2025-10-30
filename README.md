@@ -22,7 +22,7 @@ Using **play-by-play data** from the 2024–25 season, the model simulates game 
    Probabilities of moving between states were estimated using historical outcomes — accounting for free throw accuracy, turnover rates, scoring probabilities, and more.
 
 4. **Expected Points:**  
-   The chain runs multiple simulations to estimate the expected points in each situation (No Foul, Foul in the Bonus, Foul in the Double Bonus) for all D1 Teams.
+   The chains run multiple simulations to calculate the expected points in each situation (No Foul, Foul in the Bonus, Foul in the Double Bonus) for all D1 Teams.
 
 5. **Time Frames:**  
    Play-by-play data was scraped from different time intervals (Full Game, Last Hald, Last 5 Min, etc.) to show how the expected points changed over time.
@@ -36,9 +36,9 @@ Using **play-by-play data** from the 2024–25 season, the model simulates game 
 ---
 
 ## ⚙️ Technologies Used
-- **Python** — data cleaning, modeling, and simulation  
-- **Pandas / NumPy** — statistical computation  
-- **Matplotlib / Seaborn** — data visualization  
+- **Python** — data collection and analysis  
+- **Pandas** — cleaning and processing  
+- **Google Spreadsheets** — Markov chain simulation  
 - **cbbpy** — college basketball play-by-play data extraction  
 
 ---
