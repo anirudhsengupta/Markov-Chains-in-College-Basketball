@@ -30,7 +30,8 @@ Using **play-by-play data** from the 2024–25 season, the model simulates game 
 ---
 
 ## 📊 Key Findings
-- Markov Chains are an effective method of finding optimal fouling times by calculating expected points  
+- Markov Chains are an effective method of finding optimal fouling times by calculating expected points
+  ![Expected Point Graphs for Florida, Alabama, and App State](images/Expected_Points_Graphs.png)  
 - The optimal fouling time varied based on the offensive team (between last 5 and 1 minute for Florida, never for Alabama, etc.)  
 - Team shooting percentages could replace team shooting percentages to calculate more accurate expected points and identify optimal fouling targets
 
